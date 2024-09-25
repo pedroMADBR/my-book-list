@@ -3,7 +3,8 @@
 <ul>
   @for (book of books; track book.id) {
     <li>
-      {{ book.title }}
+      {{ book.title }},
+      {{ book.author }}
     </li>
   }
 </ul>
