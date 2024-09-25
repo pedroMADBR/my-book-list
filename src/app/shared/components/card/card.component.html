@@ -12,10 +12,10 @@
       bred for hunting.
     </p>
   </mat-card-content>
-  <mat-card-actions>
+  <mat-card-actions class="action-container">
     <button mat-fab aria-label="Example button with a favorite icon">
       <mat-icon fontIcon="favorite">FAVORITE</mat-icon>
     </button>
-    <button mat-button>SHARE</button>
+    <a mat-button  [routerLink]="['/add-note']">Adicionar nota</a>
   </mat-card-actions>
 </mat-card>
